@@ -1,0 +1,30 @@
+.app {
+    display: grid;
+    grid-template-rows: 150px auto;
+    /* background-color: #fdf5df; */
+    background-color: #e1f2f7;
+    color:#161f6d;
+    height: 100vh;
+    
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 20px;
+
+}
+.app_main {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 8%;
+    background-color: #e1f2f7;
+    color: #161f6d;
+}
+
+.task_column {
+    width: 33.33%;
+    margin: 20px;
+}
